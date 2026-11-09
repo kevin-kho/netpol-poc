@@ -1,4 +1,5 @@
 meshConfig:
+  accessLogFile: "/dev/stdout"
   defaultDestinationRuleExportTo:
     - .
   defaultServiceExportTo:

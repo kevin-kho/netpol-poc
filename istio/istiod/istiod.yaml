@@ -40,6 +40,7 @@ data:
   original-values: |-
     {
       "meshConfig": {
+        "accessLogFile": "/dev/stdout",
         "defaultDestinationRuleExportTo": [
           "."
         ],
@@ -210,6 +211,7 @@ data:
       "keepaliveMaxServerConnectionAge": "30m",
       "memory": {},
       "meshConfig": {
+        "accessLogFile": "/dev/stdout",
         "defaultDestinationRuleExportTo": [
           "."
         ],
@@ -310,6 +312,7 @@ data:
     networks: {}
 
   mesh: |-
+    accessLogFile: /dev/stdout
     defaultConfig:
       discoveryAddress: istiod.istio-system.svc:15012
     defaultDestinationRuleExportTo:
