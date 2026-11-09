@@ -1,0 +1,9 @@
+meshConfig:
+  defaultDestinationRuleExportTo:
+    - .
+  defaultServiceExportTo:
+    - .
+  defaultVirtualServiceExportTo:
+    - .
+  outboundTrafficPolicy:
+    mode: REGISTRY_ONLY
