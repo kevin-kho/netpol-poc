@@ -1,0 +1,2 @@
+[2026-11-09T21:58:10.019Z] "GET / HTTP/1.1" 503 URX,UF upstream_reset_before_response_started{remote_connection_failure|delayed_connect_error:_Connection_refused} - "delayed_connect_error:_Connection_refused" 0 121 60 - "-" "curl/8.22.0" "e78df0d6-3a94-42a4-9a77-c465839a3443"  │
+│ [2026-11-09T21:58:48.292Z] "- - -" 0 UH - - "-" 0 0 0 - "-" "-" "-" "-" "-" BlackHoleCluster - 10.43.185.168:80 10.42.6.6:46806 - -
