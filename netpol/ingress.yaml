@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ingress
+  namespace: commissions
+spec:
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: "commissions-core"
+        # - namespaceSelector:
+            # matchLabels:
+              # kubernetes.io/metadata.name: "workflow-core"
